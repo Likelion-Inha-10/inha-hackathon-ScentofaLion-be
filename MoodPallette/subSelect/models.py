@@ -12,8 +12,8 @@ class subSelect(models.Model):
     bodywash_yn = models.BooleanField(default=False)
     candle_yn = models.BooleanField(default=False)
     room_yn = models.BooleanField(default=False)
-    diffuser_yn = models.BooleanField(default=False)
-    diffuser_yn = models.BooleanField(default=False)
+    bodymist_yn = models.BooleanField(default=False)
+    bodylotion_yn = models.BooleanField(default=False)
 
     def __str__(self):
         return self.id
